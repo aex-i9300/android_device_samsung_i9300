@@ -24,8 +24,8 @@ $(call inherit-product, $(SRC_TARGET_DIR)/product/aosp_base_telephony.mk)
 $(call inherit-product, device/samsung/i9300/device.mk)
 $(call inherit-product, device/samsung/smdk4412-common/common.mk)
 
-# Inherit some common dotOS stuff.
-$(call inherit-product, vendor/dot/config/common.mk)
+# Inherit some common AEX stuff.
+$(call inherit-product, vendor/aosp/common.mk)
 
 # Boot animation
 TARGET_BOOT_ANIMATION_RES := 720

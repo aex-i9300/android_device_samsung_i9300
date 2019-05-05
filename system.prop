@@ -17,3 +17,10 @@ ro.egl.destroy_after_detach=true
 
 # Camera API
 persist.camera.HAL3.enabled=1
+
+ Google Assistant
+ro.opa.eligible_device=true
+
+# Change it to false to disable that sensor
+sensors.light.enable=false
+sensors.proxy.enable=false

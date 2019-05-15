@@ -32,7 +32,7 @@ TARGET_BOOT_ANIMATION_RES := 720
 
 # Device identifier. This must come after all inclusions
 PRODUCT_DEVICE := i9300
-PRODUCT_NAME := dot_i9300
+PRODUCT_NAME := aosp_i9300
 PRODUCT_BRAND := samsung
 PRODUCT_MODEL := GT-I9300
 PRODUCT_MANUFACTURER := samsung

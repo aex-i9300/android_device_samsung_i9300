@@ -125,8 +125,7 @@ int cm36651_proximity_activate(struct smdk4x12_sensors_handlers *handlers)
 }
 
 int cm36651_proximity_deactivate(struct smdk4x12_sensors_handlers *handlers)
-{	if(property_get_bool("sensors.enable", true) == true)
-    {
+{	
 	struct cm36651_proximity_data *data;
 	int rc;
 

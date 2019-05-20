@@ -128,8 +128,7 @@ int cm36651_light_activate(struct smdk4x12_sensors_handlers *handlers)
 }
 
 int cm36651_light_deactivate(struct smdk4x12_sensors_handlers *handlers)
-{	if(property_get_bool("sensors.enable", true) == true)
-    {
+{	
 	struct cm36651_light_data *data;
 	int rc;
 
